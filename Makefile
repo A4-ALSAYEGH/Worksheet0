@@ -13,6 +13,9 @@ hello: hello-world.cpp
 task1_pointers: task1_pointers.c
 	$(CC) $(CFLAGS) -o $@ $<
 
+compare_arrays: compare_arrays.c
+	$(CC) $(CFLAGS) -o $@ $<
+
 file_sum: file_sum.c
 	$(CC) $(CFLAGS) -o $@ $<
 
